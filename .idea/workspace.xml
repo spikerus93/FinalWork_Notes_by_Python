@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed39610-3b40-48a6-8c6f-eeec2d9b3d63" name="Changes" comment="План проекта в текстовом файле на языке MarkDown (дополнение)">
-      <change afterPath="$PROJECT_DIR$/model/note.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/model/writer/save.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/presenter/presenter.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/command.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/consoleUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/view/counter.py" afterDir="false" />
+    <list default="true" id="2ed39610-3b40-48a6-8c6f-eeec2d9b3d63" name="Changes" comment="Исправление функции save_file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/writer/writable.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/writer/read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/consoleUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/consoleUI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,14 +106,32 @@
       <option name="project" value="LOCAL" />
       <updated>1705688914032</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Создание модели заметки, добавление функций сохранения и загрузки заметок.">
+      <option name="closed" value="true" />
+      <created>1705693201914</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705693201914</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Исправление функции save_file">
+      <option name="closed" value="true" />
+      <created>1705693341624</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705693341624</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Создание структуры проекта для написания программы &quot;Заметки&quot;" />
     <MESSAGE value="План проекта в текстовом файле на языке MarkDown" />
     <MESSAGE value="План проекта в текстовом файле на языке MarkDown (дополнение)" />
-    <option name="LAST_COMMIT_MESSAGE" value="План проекта в текстовом файле на языке MarkDown (дополнение)" />
+    <MESSAGE value="Создание модели заметки, добавление функций сохранения и загрузки заметок." />
+    <MESSAGE value="Исправление функции save_file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Исправление функции save_file" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

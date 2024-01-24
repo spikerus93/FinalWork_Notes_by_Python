@@ -2,7 +2,6 @@ import model.note
 
 
 def read_file():
-    global array
     try:
         array = []
         file = open("notes.csv", mode='r', encoding='utf-8')

@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ed39610-3b40-48a6-8c6f-eeec2d9b3d63" name="Changes" comment="Исправление функции save_file">
+    <list default="true" id="2ed39610-3b40-48a6-8c6f-eeec2d9b3d63" name="Changes" comment="Добавление Главного меню main_menu">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/note.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/note.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/writer/read.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/writer/read.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/presenter/presenter.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/controller.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/view/command.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/command.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/view/consoleUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/view/consoleUI.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,9 +31,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2bBT1iMxqO80jhb4r01GCKyx9Gf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,11 +42,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\pythonProject\view" />
+      <recent name="C:\Users\User\PycharmProjects\pythonProject\view\commands" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -122,7 +134,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705693341624</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Добавление Главного меню main_menu">
+      <option name="closed" value="true" />
+      <created>1705694031804</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705694031804</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -131,17 +151,7 @@
     <MESSAGE value="План проекта в текстовом файле на языке MarkDown (дополнение)" />
     <MESSAGE value="Создание модели заметки, добавление функций сохранения и загрузки заметок." />
     <MESSAGE value="Исправление функции save_file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Исправление функции save_file" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/main.py</url>
-          <line>8</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Добавление Главного меню main_menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление Главного меню main_menu" />
   </component>
 </project>

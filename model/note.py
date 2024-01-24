@@ -1,5 +1,6 @@
 from datetime import datetime
 from view import counter
+import uuid
 
 
 class Note:
@@ -38,5 +39,5 @@ class Note:
         return note.id + ';' + note.title + ';' + note.body + ';' + note.date
 
     def map_Info(note):
-        return ("\nId: " + note.id + '\n' + "Название" + note.title +
-                '\n' + "Описание" + note.body + "\n" + "Дата создания" + note.date)
+        return ("\nId: " + note.id + '\n' + "Название: " + note.title +
+                '\n' + "Описание: " + note.body + "\n" + "Дата создания - " + note.date)
